@@ -1,0 +1,129 @@
+@import "mixins";
+@import "variables";
+@import "extensions";
+
+.container {
+  border: 5px solid;
+  position: absolute;
+  width: 55dvw;
+  height: fit-content;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+
+  @include media-max-width() {
+    width: 90dvw; // Use viewport width instead of fixed pixel value
+    height: fit-content;
+    font-size: x-small;
+  }
+}
+
+
+.form {
+  display: grid;
+  margin: $main-margin * 4;
+  width: 433px;
+
+  @include media-max-width() {
+    width: 60vw; // Use viewport width instead of fixed pixel value
+    margin: $main-margin * 4; // Adjust margin for mobile devices
+  }
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  @extend .mainInputStyle;
+  border: 1px solid #fff;
+  margin-top: $main-margin * 2;
+  padding-left: 10px;
+  width: 100%; /* Adjust width to fill the container */
+  box-sizing: border-box; /* Include padding and borders in width calculation */
+
+  @include media-max-width() {
+    width: 60vw; // Use viewport width instead of fixed pixel value
+    margin: $main-margin * 2; // Adjust margin for mobile devices
+  }
+}
+
+
+.loginBtn {
+  @extend .mainInputStyle;
+  border: 2px solid $submit-color;
+  margin-top: $main-margin * 2;
+  font-size: medium;
+  color: $submit-color;
+  cursor: pointer;
+
+  &:active {
+    opacity: 50%;
+  }
+
+  &:hover {
+    filter: invert(100%);
+  }
+  @include media-max-width() {
+    width: 60vw; // Use viewport width instead of fixed pixel value
+    margin: $main-margin * 2; // Adjust margin for mobile devices
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 15px;
+}
+
+
+.h1text {
+  text-align: center;
+  padding-top: 30px;
+}
+.h1text2 {
+  text-align: center;
+  padding-top: 10px;
+}
+.h1text2 {
+  text-align: center;
+  padding-top: 5px;
+}
+.signUpPrompt {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.FlexDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Set the height to 100% of the viewport height to center vertically */
+}
+
+.webcamContainer{
+  background-color: darken($color: #312a4a, $amount: 5);
+  align-items: center;
+  justify-content: center;
+}
+.webcam-btn {
+  align-items: center;
+}
+
+.hiddenMobile {
+  text-align: center;
+}
+
+.hiddenDesktop{
+  text-align: center;
+}
+
+
+

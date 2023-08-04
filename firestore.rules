@@ -1,0 +1,23 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+
+  match /databases/{database}/documents {
+    match /users/{usersID} {
+      allow read:
+        if request.auth.uid != null
+          && (
+            request.auth.token.firebase.sign_in_provider == "google.com"
+            || request.auth.token.firebase.sign_in_provider == "password"
+          )
+          && request.auth.token.email == usersID;
+      
+      allow create: if request.auth.uid != null;
+    }
+  }
+}

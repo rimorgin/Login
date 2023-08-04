@@ -1,0 +1,30 @@
+.post-body {
+  margin: 1em 20%;
+  width: fit-content;
+  background-image: linear-gradient(to bottom right, rgb(66, 29, 231), cyan); /* Gradient from blue to cyan */
+  color: black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.message {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.messageDate {
+  position: absolute; 
+  right: 10px; 
+  top: 10px; 
+}
+
+
+@media(max-width: 900px) {
+  .post-body {
+    margin: 1em;
+  }
+}
+
+.text {
+  color: aliceblue;
+}

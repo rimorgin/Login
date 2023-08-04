@@ -1,0 +1,25 @@
+.mainInputStyle {
+  border-radius: 10px;
+  height: 50px;
+  background: none;
+  width: -webkit-fill-available;
+}
+
+@media (max-width: 768px) {
+  .mainInputStyle {
+    width: 100%;
+  }
+}
+
+.mainContainerStyle {
+  border-radius: 10px;
+  height: 500px;
+  background: none;
+  width: -webkit-fill-available;
+}
+
+@media (max-width: 768px) {
+  .mainContainerStyle {
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+
+.post-editor {
+  margin: 1em 20%;
+  position: sticky;
+  bottom: 0;
+}
+
+.post-editor-button {
+  position: sticky;
+  float: right;
+  margin-top: 1em;
+  bottom: 0;
+}
+
+
+
+@media(max-width: 900px) {
+  .post-editor {
+    margin: 1em;
+  }
+
+  .post-body {
+    margin: 1em;
+  }
+}
