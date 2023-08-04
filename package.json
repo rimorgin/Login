@@ -4,7 +4,7 @@
   "private": true,
   "description": "project made to complete it135L course",
   "keywords": [],
-  "homepage": "https://barangay-sta-ana-taytay.web.app/",
+  "homepage": "https://rimorgin.github.io/sta-ana-bmis",
   "main": "index.js",
   "dependencies": {
     "@emotion/cache": "^11.11.0",
@@ -61,6 +61,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -86,6 +88,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
+    "gh-pages": "^5.0.0",
     "react-router-dom": "^6.14.1"
   }
 }
