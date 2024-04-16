@@ -1,22 +1,19 @@
-# Login page
-
-![image](https://user-images.githubusercontent.com/58663418/174718200-644c41f2-a653-4671-bff7-d8a627351990.png)
-
 
 ## About The Project
 
-The login page checks the credentials from the server's database. If the log-in data is fine, it is saved to the user's browser to keep it signed.
+This contains about registration of barangay residents with facial recognition, promoting transparency with the barangay residents, and for advancement of technology used in the barangay.
 
-### Installation
+# Homepage
+![image](https://github.com/rimorgin/sta-ana-brgy-management/blob/main/src/assets/homepage.png)
 
-* npm install
-* npm start
+# Resident Login page
 
-### Built With
+![image](https://github.com/rimorgin/sta-ana-brgy-management/blob/main/src/assets/residentlogin.png)
 
-* React.js v18.1.0
-* Firebase
-* SCSS
+# Sign Up page
+![image](https://github.com/rimorgin/sta-ana-brgy-management/blob/main/src/assets/signup.png)
+
+
 
 
 
