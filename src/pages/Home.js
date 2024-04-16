@@ -6,12 +6,13 @@ import { AppContext} from '../App';
 import { Alert } from '@mantine/core';
 import { IconAlertCircle } from '@tabler/icons-react';
 import { Badge } from 'tabler-icons-react';
+import bg from "../assets/sta-ana-bg.jpg"
 
 const useStyles = createStyles((theme) => ({
   hero: {
     position: 'relative',
     backgroundImage:
-      'url(https://scontent.fmnl8-3.fna.fbcdn.net/v/t31.18172-8/29064239_2006915102902165_5037852773680660604_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=2f4IWNItmnwAX-hxzlW&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfBf2zcZ8tvRksoc4zBmghk9iNGLB9LKyHzDMdTD5TosJA&oe=64E76E3C)',
+      `url(${bg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: 'auto',
@@ -115,7 +116,7 @@ const useStyles = createStyles((theme) => ({
 
 const mockdata = [
   {
-    eventimage: "https://imgtr.ee/images/2023/08/03/090cdec3d8c20f958429e2d857d531b8.md.jpeg",
+    eventimage: "https://firebasestorage.googleapis.com/v0/b/barangay-sta-ana-taytay.appspot.com/o/eventImages%2Faug3.jpg?alt=media&token=35838951-c86e-4a6d-a8ed-856495d63c26mgtr.ee/images/2023/08/03/090cdec3d8c20f958429e2d857d531b8.md.jpeg",
     eventname: "15th REGULAR SESSION 2023 ⚖️🇵🇭",
     eventdate: "8/3/2023",
     description: "Infrastructure projects in Lupang Arenda, Floodway Area, as well as in Central, were discussed, along with disaster response programs. Led by our Barangay Chairman Michael Tisoy Cruz and the Barangay Council Members of Sta. Ana, unity and cooperation continue to be the driving force towards the progress of our barangay.",
@@ -126,29 +127,31 @@ const mockdata = [
     ],
   },
   {
-    eventimage: "https://imgtr.ee/images/2023/08/03/a1c42f7f210931e9739c7897969f8e51.md.jpeg",
+    eventimage: "https://firebasestorage.googleapis.com/v0/b/barangay-sta-ana-taytay.appspot.com/o/eventImages%2Fbanak.jpg?alt=media&token=02d3db30-f0b9-4581-a261-79d2eb338619",
     eventname: "",
     eventdate: "7/31/2023",
-    description: "Today, the Barangay Anti-Drug Abuse Council - BADAC, together with the BADAC of Barangay Dolores and Barangay Muzon, held a meeting for the sharing of knowledge and reporting.",
+    description: "Banak Festival Street Parade sa Lupang Arenda! '🎉' Masaya po kaming maibaba at maipadama sa mga kabarangay natin sa Arenda ang kapistahan ni Lola Ana at ng Banak'!' Nakakatuwa na makita ang mga ngiti ng ating mga kabarangay'!' Sa pangunguna ni Kapitan Michael Tisoy Cruz at Sangguniang Barangay'!'' ",
     location: "Sta Ana",
     badges: [
       { emoji: "👆", label: "One Sta Ana" },
       { emoji: "⭐️", label: "Unity" },
+      { emoji: "⭐️", label: "BanakFestival2023" },
     ],
   },
   {
-    eventimage: "https://imgtr.ee/images/2023/08/03/04d0dc1e44360ca7f1e2d96fc7334fd1.md.jpeg",
-    eventname: 'Congratulations "GAIGAMAT" CLASS 58-2023! ',
-    eventdate: "7/29/2023",
-    description: "Over a hundred individuals completed their training in the Philippine Army at Fort Bonifacio Taguig City last month. One of our outstanding barangay members, 2LT Julius Jenno S. Lacay, is among the 106 graduates who are now part of the Philippine Army. We congratulate you on your success and honor! He was formerly a SK Kagawad (Youth Council Member) of our barangay and now he is one of the proud members of the Philippine Army.",
-    location: "Sta Ana",
+    eventimage: "https://firebasestorage.googleapis.com/v0/b/barangay-sta-ana-taytay.appspot.com/o/eventImages%2Fciudad.jpg?alt=media&token=cb1626d2-8747-494a-a44b-0bebbe0d7615",
+    eventname: 'Oplan LINIS! ',
+    eventdate: "6/22/2023",
+    description: "Tuloy-tuloy ang mga programa at proyekto ni Kapitan Michael “Tisoy” Cruz at Sangguniang Barangay para maibsan ang mabilis na pagbaha. !",
+    location: "Ciudad Del Sol",
     badges: [
       { emoji: "👆", label: "One Sta Ana" },
       { emoji: "⭐️", label: "Unity" },
+      { emoji: "🥳", label: "#Nagkaka1sangStaAna" },
     ],
   },
   {
-    eventimage: "https://imgtr.ee/images/2023/08/03/fb8c4f25ba723488d4390a016e205a53.jpeg",
+    eventimage: "https://firebasestorage.googleapis.com/v0/b/barangay-sta-ana-taytay.appspot.com/o/eventImages%2F7-29.jpg?alt=media&token=6d7b3e55-4898-487b-a458-45cf16d76324",
     eventname: "Mr. & Ms. Teen Sta. Ana 2023 👑",
     eventdate: "7/29/2023",
     description: "The youth of Barangay Sta. Ana truly shone brightly and showcased their excellence!",

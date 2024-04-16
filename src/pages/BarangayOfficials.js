@@ -21,7 +21,7 @@ const useStyles = createStyles ((theme) => ({
         left: '50%',
         background:
           theme.colorScheme === "dark"
-            ? theme.colors.darktheme[5]
+            ? theme.colors.dark[7]
             : theme.colors.lighttheme[0],
         transition: "ease-in-out 500ms",
 

@@ -1,6 +1,5 @@
 import { createStyles, Container, Group, ActionIcon, rem, useMantineTheme, useMantineColorScheme, Text } from '@mantine/core';
 import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram, IconBrandFacebook, IconBrandGmail, IconPhoneCall, IconLocation } from '@tabler/icons-react';
-import { MantineLogo } from '@mantine/ds';
 import LogoFooter from './LogoFooter';
 import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
@@ -8,7 +7,7 @@ import { Link } from 'react-router-dom';
 const useStyles = createStyles((theme) => ({
   footer: {
     marginTop: rem(120),
-    backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[2],
+    backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[7] : theme.white,
     borderTop: `${rem(1)} solid ${
       theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[2]
     }`,

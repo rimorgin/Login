@@ -23,6 +23,7 @@ const useStyles = createStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: theme.colorScheme ? theme.colors.dark[7] : theme.white
   },
   group: {
     display: "flex",

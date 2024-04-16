@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/sta-ana-bmis/static/css/main.481a4608.css",
-    "main.js": "/sta-ana-bmis/static/js/main.654e1daa.js",
-    "static/media/black-brgy-tagname.png": "/sta-ana-bmis/static/media/black-brgy-tagname.73c1114cf4e54a17131e.png",
-    "static/media/white-brgy-tagname.png": "/sta-ana-bmis/static/media/white-brgy-tagname.fe3827a107dc12dc5948.png",
-    "static/media/brgy-logo.jpg": "/sta-ana-bmis/static/media/brgy-logo.a21a96db0d9b42742394.jpg",
-    "static/media/OpenSans-Regular.ttf": "/sta-ana-bmis/static/media/OpenSans-Regular.57cd57a648021fa1c396.ttf",
-    "static/media/OpenSans-Bold.ttf": "/sta-ana-bmis/static/media/OpenSans-Bold.a0fe34bea92d4e1a84d6.ttf",
-    "static/media/404.png": "/sta-ana-bmis/static/media/404.a119dcb1e5455ee940ff.png",
-    "static/media/Lucida Calligraphy Font.ttf": "/sta-ana-bmis/static/media/Lucida Calligraphy Font.c8f848367768f45fe493.ttf",
-    "index.html": "/sta-ana-bmis/index.html",
-    "static/media/BG.svg": "/sta-ana-bmis/static/media/BG.743431727f9cae7e905b.svg",
-    "main.481a4608.css.map": "/sta-ana-bmis/static/css/main.481a4608.css.map",
-    "main.654e1daa.js.map": "/sta-ana-bmis/static/js/main.654e1daa.js.map"
+    "main.css": "/static/css/main.80555cf8.css",
+    "main.js": "/static/js/main.2a4ef2d7.js",
+    "static/media/sta-ana-bg.jpg": "/static/media/sta-ana-bg.8efba66fdd7299a69855.jpg",
+    "static/media/black-brgy-tagname.png": "/static/media/black-brgy-tagname.13049654be55ac3fa03c.png",
+    "static/media/white-brgy-tagname.png": "/static/media/white-brgy-tagname.176769ca3f8887941375.png",
+    "static/media/brgy-logo.jpg": "/static/media/brgy-logo.a21a96db0d9b42742394.jpg",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.57cd57a648021fa1c396.ttf",
+    "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.a0fe34bea92d4e1a84d6.ttf",
+    "static/media/404.png": "/static/media/404.a119dcb1e5455ee940ff.png",
+    "static/media/Lucida Calligraphy Font.ttf": "/static/media/Lucida Calligraphy Font.c8f848367768f45fe493.ttf",
+    "index.html": "/index.html",
+    "static/media/BG.svg": "/static/media/BG.d416eb1f5e223b789a67.svg",
+    "main.80555cf8.css.map": "/static/css/main.80555cf8.css.map",
+    "main.2a4ef2d7.js.map": "/static/js/main.2a4ef2d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.481a4608.css",
-    "static/js/main.654e1daa.js"
+    "static/css/main.80555cf8.css",
+    "static/js/main.2a4ef2d7.js"
   ]
 }

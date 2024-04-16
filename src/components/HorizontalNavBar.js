@@ -1,7 +1,7 @@
 import '../styles/brgy-logo.css';
 import  blackbrgyLogo  from '../images/black-brgy-tagname.png';
 import  whitebrgyLogo  from '../images/white-brgy-tagname.png';
-
+import LogoFooter from './LogoFooter';
 import {
     createStyles,
     Header,
@@ -71,6 +71,7 @@ import { SplitButton } from './ButtonLogin';
   
       ...theme.fn.hover({
         backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[3] : theme.colors.gray[7],
+        borderRadius: '20px',
         padding: '20px',
       }),
     },
@@ -371,8 +372,8 @@ import { SplitButton } from './ButtonLogin';
       <Box pb={120}>
         <Header height={100} px="md" style={{ transition: "ease-in-out 500ms" }}>
         <Group position='apart' sx={{ height: '100%', alignItems: 'center' }}>
-          <div className={classes.divlogocontainer}>
-            <Logo/>
+          <div>
+            <LogoFooter/>
           </div>
             <Group position="center" sx={{ height: '100%', alignItems: 'center' }} className={classes.hiddenMobile}>
               <a onClick={goToHome} className={classes.link}>

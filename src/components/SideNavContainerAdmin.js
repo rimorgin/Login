@@ -192,7 +192,7 @@ export function SideNavContainerAdmin() {
           height: '100vh',
           width: 300,
           zIndex: 999,
-          backgroundColor: colorScheme === 'dark' ? theme.black : theme.white, // Replace with your desired sidebar background color
+          backgroundColor: colorScheme === 'dark' ? theme.colors.dark[7] : theme.white, // Replace with your desired sidebar background color
           transition: 'left 0.3s ease-in-out', // Add a transition for the left property
         }}
         ref={clickOutsideRef}
@@ -207,7 +207,7 @@ export function SideNavContainerAdmin() {
           </div>
           <Divider my={'md'} size={0}/><Divider my={'md'} size={0}/>
           <div className={cx(classes.navbarsections, {
-                [classes.navbarsectionsfocused]: Active === 0,
+                [classes.navbarsectionsfocused]: Active === 1,
               })}>
             <UnstyledButton component={Link} to={'/'}>
               <Flex className={classes.links}><Home2 size={'1.5rem'} color={iconColor}/><Text style={{ marginLeft: '5px' }}>Home</Text></Flex>
@@ -215,7 +215,7 @@ export function SideNavContainerAdmin() {
           </div>
           <Divider my={'md'}/>
           <div className={cx(classes.navbarsections, {
-                [classes.navbarsectionsfocused]: Active === 0,
+                [classes.navbarsectionsfocused]: Active === 1,
               })}>
             <UnstyledButton component={Link} to={'/admin-dashboard'}>
               <Flex className={classes.links}><LayoutDashboard size={'1.5rem'} color={iconColor}/><Text style={{ marginLeft: '5px' }}>Dashboard</Text></Flex>
